@@ -22,22 +22,9 @@ for x in xrange(0,127):
 
 print('all done')
 
-except KeyboardInterrupt: 
-    GPIO.cleanup()
+GPIO.cleanup()
 
 
 ########################playing
 
-anykey = [7,11,12,13,0]
-for x in anykey:
-  print(x)
 
-
-
-
-
-
-print((count_1 >> 0)%2)
-print((count_1 >> 1)%2)
-print((count_1 >> 2)%2)
-print((count_1 >> 4)%2)

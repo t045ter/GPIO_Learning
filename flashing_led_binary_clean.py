@@ -13,7 +13,7 @@ for  x in GPIO_O:
 
 
 #'for loop count to 100 toggle pin out high
-for x in xrange(0,100):
+for x in xrange(0,127):
   GPIO.output(7,(x >> 0)%2)
   GPIO.output(11,(x >> 1)%2)
   GPIO.output(12,(x >> 2)%2)
